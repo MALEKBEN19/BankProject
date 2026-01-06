@@ -121,7 +121,7 @@ void PrintClientMenu(vector<stClient> vclient) {
 
 //Add client : 
 //----------------------------------------------
-bool IsAccountNumberExist(vector<stClient> vClient, string AccountNumber) {
+bool IsAccountNumberExist(vector<stClient> &vClient, string AccountNumber) {
 	for (stClient& clt : vClient) {
 		if (clt.AccountNumber == AccountNumber) {
 			return 1;
