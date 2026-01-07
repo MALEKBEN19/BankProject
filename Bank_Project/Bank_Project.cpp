@@ -272,7 +272,7 @@ void DeleteAccountFromFile(vector<stClient> & vClient) {
 //---------------------------------------------
 
 
-//Updat client : 
+//Update client : 
 //----------------------------------------------
 
 void UpdateClientScreen() {
